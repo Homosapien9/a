@@ -12,8 +12,8 @@ client = OpenAI(
 )
 
 # Initialize Supabase client
-url = "YOUR_SUPABASE_URL"
-key = "YOUR_SUPABASE_ANON_KEY"
+url = "https://jclnjpqnoxtbvidvwgnx.supabase.co"
+key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpjbG5qcHFub3h0YnZpZHZ3Z254Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQ1MzA0MjQsImV4cCI6MjA2MDEwNjQyNH0.fxLXrUoogJk3HYlTqvOejvg2Gk4oK9aDQLeU1IOLYNU"
 supabase: Client = create_client(url, key)
 
 # Function to get JDGPT response
